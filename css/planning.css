@@ -1,0 +1,33 @@
+main{
+    background-image: url('https://psmag.com/.image/t_share/MTI4NTEwMTQ0MzQ5Nzk0Mjc0/shutterstock_211281496jpg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    margin: 50px;
+    min-width:180vh;
+}
+td{
+    font-style: italic;
+    text-align: center;
+    border-bottom: solid black;
+    border-top: solid black;
+}
+th{
+    border: solid black;
+}
+button{
+    margin: 2vh;
+    min-height:5vh;
+    min-width:5vh;
+    border-radius: 1em;
+}

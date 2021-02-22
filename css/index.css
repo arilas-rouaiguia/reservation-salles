@@ -1,0 +1,69 @@
+main{
+    background-color: #00191c;
+    background-image: url('https://www.vincennes.fr/sites/default/files/var/vincennes/storage/images/mediatheque/famille/enfance/enfants-en-classe/706845-2-fre-FR/enfants-en-classe.jpg');
+    height:80vh;
+    display: flex;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15vh;
+    width:60%;
+    height:45vh;
+    padding-left: 15vh;
+    padding-right:15vh;
+    margin-top:5%;
+}
+#contentSection{    
+    background-color: rgba(168, 14, 158, 0.8);
+    border-radius: 2em;
+}
+h1{
+    font-size: 3em;
+    color: whitesmoke;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5em;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+p{
+    font-size: 1.1em;
+    color: whitesmoke;
+
+}
+#room{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
+    width:60%;
+    height:60vh;
+    padding-right: 15vh;
+}
+.article_salles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60%;
+    height:70%;
+    
+}
+.img_salles{
+    width:70vh;
+    height:50vh;
+    padding:30px;
+}
+
+
+.img_prof4{
+    width:30vh;
+height:20vh;}

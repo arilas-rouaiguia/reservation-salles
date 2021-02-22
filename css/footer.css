@@ -1,0 +1,30 @@
+footer{
+    width:100%;
+}
+
+div{
+    background-color:#dab2da;
+}
+#deco{
+    max-height:5vh;
+    max-width:5vh;
+    margin: 0;
+    padding:0;
+}
+@font-face{
+    font-family: 'signature';
+    src: url('../font/signature/Zenzai-Itacha.ttf');
+    
+}
+.signature_font {
+    /* signature dev */
+    font-family: 'signature';
+    font-size: 20px;
+
+}
+h5{
+    padding:39px;
+}
+.disco{
+    margin-left: 10px;
+}

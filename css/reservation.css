@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    background-image: url('https://psmag.com/.image/t_share/MTI4NTEwMTQ0MzQ5Nzk0Mjc0/shutterstock_211281496jpg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    background-color: red;
+    height:50vh;
+    width:40vh;
+    padding:20px;
+    color:white;
+}
+
+.block{
+    min-width:40vh;
+    min-height:50vh;
+    padding:20px;
+    background-color:red;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
