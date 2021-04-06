@@ -1,3 +1,5 @@
+<?php include("securite.php"); include("utilsateur.php"); ?>
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
