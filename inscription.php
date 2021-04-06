@@ -9,7 +9,7 @@ if (isset($_POST['inscription'])) { //Lancement de l'inscription
   $count = $stmt->fetch(PDO::FETCH_ASSOC);
   
   
-  if($count == 0){ //Inscription réussite
+  if($count == 0){ 
     if (strlen(trim($_POST['login']))) {
       if (strlen($_POST['password'])) {
         if ($_POST['password'] === $_POST['vpassword']) {
@@ -18,7 +18,7 @@ if (isset($_POST['inscription'])) { //Lancement de l'inscription
           $stmt = $pdo->prepare("INSERT INTO utilisateurs (login, password) VALUES ('$login', '$password')");
           $stmt->execute();
 		  header("location: connexion.php");
-        }
+        } //Inscription réussite
         else {
           $msg = "Password / Confirm Password Incorrect";
         }

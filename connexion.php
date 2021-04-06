@@ -19,7 +19,7 @@ if (isset($_POST['connexion'])) { //Lancement de la connexion
     $countP = $stmtP->fetch(PDO::FETCH_ASSOC);
     $count = $stmt->fetch(PDO::FETCH_ASSOC);
     
-	if (count($count)) { //Connexion validée
+	if (count($count)) { 
       if (password_verify($password,$countP['password'])) {
         $user = new user();
         $user->setId($count['id']);
@@ -27,7 +27,7 @@ if (isset($_POST['connexion'])) { //Lancement de la connexion
         $_SESSION['id'] = $user->getId();
         $_SESSION['login'] = $user->getLogin();
         header("location: profil.php");
-      }
+      } //Connexion validée
       else {
         $msg = "Login ou Mdp incorrecte";
       }

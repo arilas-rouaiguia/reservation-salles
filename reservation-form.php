@@ -17,9 +17,9 @@ if(isset($_POST['reserver'])){ //Lancement de la réservation
         $stmt->execute();
 		header("location: planning.php");
 		
-      }
+      }//Réservation réussite.
     }
-  } //Réservation réussite.
+  } 
 }
 
 
