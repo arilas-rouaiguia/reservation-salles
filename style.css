@@ -1,6 +1,6 @@
 body{
 
-font-family: 'Roboto Condensed', sans-serif;
+font-family:"times new roman", times, serif;
 background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
 background-size: cover;
 }
@@ -11,6 +11,7 @@ background-size: cover;
 	 margin-left: auto;
   margin-right: auto;
 }
+
 /* Bordered form */
 form {
     width:100%;
@@ -111,3 +112,13 @@ margin-left: auto;
 	
 	text-align: center;
  }
+ 
+ #classe{
+	width: 850px;
+  display: block;
+  margin-left: 15%;
+  margin-right: auto;
+ }
+ 
+ #text{
+	 text-align: center;

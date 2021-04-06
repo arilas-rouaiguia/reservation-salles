@@ -17,6 +17,7 @@ if (isset($_POST['inscription'])) { //Lancement de l'inscription
           $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
           $stmt = $pdo->prepare("INSERT INTO utilisateurs (login, password) VALUES ('$login', '$password')");
           $stmt->execute();
+		  header("location: connexion.php");
         }
         else {
           $msg = "Password / Confirm Password Incorrect";

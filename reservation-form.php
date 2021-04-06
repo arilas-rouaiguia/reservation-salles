@@ -15,6 +15,8 @@ if(isset($_POST['reserver'])){ //Lancement de la réservation
         $pdo = new PDO('mysql:host=localhost;dbname=reservationsalles', 'root', '');
         $stmt = $pdo->prepare("INSERT INTO reservations (titre,description,debut,fin,id_utilisateur) VALUES ('$titre','$desc','$datedebut','$datefin','$userid')");
         $stmt->execute();
+		header("location: planning.php");
+		
       }
     }
   } //Réservation réussite.
